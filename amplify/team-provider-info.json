@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "amplifywest39d09544": {}
+        "amplifywest39d09544": {},
+        "userPoolGroups": {}
       }
     }
   }
