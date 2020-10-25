@@ -1,5 +1,22 @@
 {
-  "api": {},
+  "api": {
+    "amplifywest": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 24,
+              "description": "amplifywest"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
   "auth": {
     "amplifywest39d09544": {
       "service": "Cognito",
